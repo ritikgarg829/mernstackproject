@@ -1,0 +1,316 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Mate SC', serif;
+    /* font-family: 'Indie Flower', cursive; */
+/* font-family: 'Lobster', cursive; */
+    /*----------------------------------- navbar-----------------------  */
+}
+body{
+    background-color:white;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar h4 {
+    color: white;
+}
+
+i {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: blue;
+}
+
+.nav-item {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+/* ---------------------------------------signup-----------------------------------*/
+
+.signup-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+
+.createheading {
+    text-align: center;
+    color: rgb(52 248 252);
+}
+
+.signup-form {
+    background-color: rgb(71 71 245);
+    box-shadow: 5px 10px 18px black;
+    height: auto;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.already-registered {
+    color: black;
+    font-weight: bold;
+    list-style: none;
+    margin-left: 5vh;
+}
+
+
+/* -----------------------------------------------login ---------------------------------------------------------------*/
+
+.login-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.5rem;
+}
+
+.createheading {
+    text-align: center;
+    color: rgb(52 248 252);
+}
+
+.login-form {
+    width: 30%;
+    background-color: rgb(71 71 245);
+    box-shadow: 5px 10px 18px black;
+    height: auto;
+}
+
+.login-group label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.already-registered {
+    color: black;
+    font-weight: bold;
+    margin-left: 5vh;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ @media only screen and (max-width:980px) {
+    .login-form {
+        width: auto;
+
+    }
+    .login-container {
+      margin-top:6rem;
+    }
+}
+ 
+
+/*------------------------------------------------------- contact us-------------------------------------------------------------------------- */
+
+.main-card{
+display:flex;
+flex:wrap;
+justify-content:center;
+align-items:center;
+margin-top: 7.5rem;
+justify-content:space-around; 
+
+}
+.card{
+  width:25%;
+  box-shadow: 0 7px 30px -10px rgba(150,170,180,1);
+}
+
+
+.contact-container{
+  
+  margin-top: 7.5rem;
+text-align:center;
+ box-shadow: 0 7px 30px -10px rgba(150,170,180,1);
+}
+.contact-group{
+  margin:20px 20px 20px 20px;
+}
+
+.contact-heading{
+  color:blue;
+}
+
+.contact-group input{
+margin-left:10%;
+margin-right:13%;
+text-align:center;
+ box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+ border-radius:6px;
+ width:20%;
+
+}
+ textarea{
+   box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+   border-radius:12px;
+   height:20vh;
+}
+.card-text{
+  font-weight:bold;
+}
+
+ @media only screen and (max-width:748px) {
+    .main-card {
+ display:flex;
+flex:wrap;
+flex-direction:column;
+ margin-top: 3.5rem;
+    }
+
+ 
+ .card{
+  width:100%;
+  margin:10px 0 15px 0;
+ }
+
+ .contact-group input{
+   width:50%;
+  margin-top:5px;
+  margin-bottom:15px;
+ }
+ 
+textarea{
+width:50%;
+}
+ }
+
+/* --------------------------------------About page----------------------------------------------- */
+
+ .about-container{
+
+     margin-top:15vh;
+ }
+
+ .profile-image{
+      margin-bottom:10vh;
+ }
+
+
+ /*-------------------------------- -----------Errorpage----------------------------- */
+
+ #notfound{
+     position:relative;
+     height:100vh;
+    
+ }
+ #notfound .notfound{
+     position:absolute;
+     left:20%;
+     top:40%;
+     -webkit-transform: translate(-50% -50%);
+     -ms-transform:translate(-50% -50%);
+   transform: translate(-50% -50%);
+
+ }
+
+.notfound{
+    max-width:920px;
+    width:100%;
+    line-height:1.4;
+    text-align:center;
+    padding-left:15px;
+    padding-right:15px;
+    
+}
+..notfound-404 .notfound-404{
+   position:absolute;
+   height:100%;
+     left:50%;
+     top:0;
+     -webkit-transform: translate(-50% );
+     -ms-transform:translate(-50%) ;
+   transform: translateX(-50% );
+   z-index:-1;
+
+}
+.notfound .notfound-404 h1{
+    font-family:"maven pro" ,sans-serif;
+    color:black;
+    font-weight:900;
+    font-size:276px;
+    margin:0px;
+    position:absolute;
+     left:20%;
+     top:-70%;
+      -webkit-transform: translate(-50% -50%);
+     -ms-transform:translate(-50% -50%);
+   transform: translate(-50% -50%);
+ opacity:0.2;
+}
+
+.notfound h2{
+     font-family:"maven pro" ,sans-serif;
+    font-weight:900;
+    font-size:46px;
+    color:black;
+    text-transform:uppercase;
+    margin:0px;
+}
+
+.notfound p{
+     font-family:"maven pro" ,sans-serif;
+    font-weight:400;
+    font-size:16px;
+    color:black;
+    text-transform:uppercase;
+    margin-top:15px;
+}
+
+
+.homebtn {
+     font-family:"maven pro" ,sans-serif;
+    font-weight:400;
+    font-size:14px;
+    color:blue;
+    text-transform:uppercase;
+    text-decoration:none;
+    display:inline-block;
+    padding:16px 38px;
+    border:2px solid transparent;
+    border-radius:40px;
+    -webkit-transition:0.2s all;
+    transition:0.2s all
+}
+
+
+ /* @media only screen and (max-width:748px) {
+    .notfound .notfound-404 h1 {
+     font-size:100px;
+     left:-3%;
+     top:-17%;
+    }
+
+.notfound h2{
+
+font-size:30px;
+ text-align:center;
+ align-items:center;
+ left:-3%;
+  top:-17%;
+}
+.notfound p{
+    font-size:10px;
+ left:-3%;
+  top:-17%;
+} */
+
+
+ /* } */
+
+
